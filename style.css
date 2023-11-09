@@ -10,14 +10,15 @@ header{
 }
 header h1{
     padding: 0;
-    margin: 0;
+    margin: 10px;
     display: inline-block;
 }
 #barra{
     list-style-type: none;
     float: right;
     text-align: center;
-    margin: 0;
+    margin-top: 10px;
+    margin-right: 20px;
     padding: 0;
 }
 .barra_nav{
@@ -67,4 +68,43 @@ footer ul li a{
 }
 footer ul li a:hover{
     color: blue;
+}
+footer ul li{
+    list-style-type: none;
+}
+#seccion_contactos{
+    float: right;
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.redes_sociales img{
+    border-radius: 50%;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+@media screen and (max-width: 610px){
+    header{
+        margin: 0;
+    }
+    #presentation{
+        flex-wrap: wrap;
+    }
+    #perfil{
+        margin-left: 15%;
+        margin-top: 50px;
+    }
+    #description{
+        margin-top: 25px;
+    }
+    #barra{
+        margin-right: 0;
+    }
+    #pie_pagina{
+        margin-bottom: 30px;
+    }
 }
