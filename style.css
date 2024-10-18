@@ -13,9 +13,11 @@ header h1{
     margin: 10px;
     display: inline-block;
 }
+header nav{
+    align-content: center;
+}
 #barra{
     list-style-type: none;
-    float: right;
     text-align: center;
     margin-top: 10px;
     margin-right: 20px;
@@ -23,19 +25,17 @@ header h1{
 }
 .barra_nav{
     display: inline-block;
+}
+
+header nav ul li a{
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 10px;
     padding-top: 10px;
     border: 1px solid #000;
-}
-header nav ul li a{
     text-decoration: none;
     color: black;
 
-}
-header nav ul li a:hover{
-    color: blue;
 }
 #presentation{
     display: flex;
@@ -66,9 +66,33 @@ footer ul li a{
     text-decoration: none;
     color: black;
 }
-footer ul li a:hover{
-    color: blue;
+.content_nav:hover{
+    color: white;
+    background-color: black;
 }
+
+#Proyect_board{
+    border: 5px solid #0008ff;
+    margin: 0px 20px 0px 20px;
+}
+
+.Proyect{
+    margin: 15px 10px 15px 10px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+.Proyect_img{
+    margin-right: 4px;
+}
+.Proyect_link{
+    text-decoration: none;
+    color: #000;
+}
+.Proyect_link:hover{
+    color: #0008ff;
+}
+
 footer ul li{
     list-style-type: none;
 }
