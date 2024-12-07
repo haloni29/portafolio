@@ -1,0 +1,21 @@
+#Proyect_board{
+    border: 5px solid #0008ff;
+    margin: 0px 20px 0px 20px;
+}
+
+.Proyect{
+    margin: 15px 10px 15px 10px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+.Proyect_img{
+    margin-right: 4px;
+}
+.Proyect_link{
+    text-decoration: none;
+    color: #000;
+}
+.Proyect_link:hover{
+    color: #0008ff;
+}

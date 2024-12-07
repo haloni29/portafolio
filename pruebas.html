@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruebas</title>
+</head>
+<body>
+    <div class="box"></div>
+
+<script>
+  const box = document.querySelector('.box');
+  box.addEventListener('click', () => {
+    box.classList.toggle('active');
+  });
+</script>
+
+<style>
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: transform 0.3s ease, background-color 0.5s;
+  }
+
+  .box.active {
+    transform: rotate(45deg);
+    background-color: blue;
+  }
+</style>
+</body>
+</html>
